@@ -20,7 +20,11 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
+          run: ls
+          run: pwd
           context: .
+          run: pwd
+          run: ls
           file: ./my-reactjs/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/react-ui:latest
