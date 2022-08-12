@@ -2,7 +2,7 @@ name: GitHub Actions Release
 on:
   push:
     branches:
-      - 'feature*'
+      - 'feature/*'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

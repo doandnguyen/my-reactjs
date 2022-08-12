@@ -9,6 +9,7 @@ function App() {
         <p>
           Wellcome to gitFlow gitAction
 	  Testing feature001
+	  Testing git action on feature wildcard branch
         </p>
         <a
           className="App-link"
